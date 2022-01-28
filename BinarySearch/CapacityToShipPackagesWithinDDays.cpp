@@ -19,6 +19,7 @@ using namespace std;
 bool is_valid(int mid, vector<int> w, int d,int n){
     int my_days=1;
     int temp= mid;
+    int test=0;
     for(int i=0;i<n;i++){
         
         if(w[i]>mid){
@@ -32,6 +33,7 @@ bool is_valid(int mid, vector<int> w, int d,int n){
             return false;
         }
         else{
+            // added a comment 
             if(w[i]>temp){
                 my_days+=1;
                 temp= mid - w[i];
@@ -74,6 +76,7 @@ int main(){
             cin>>arr[i];
         }   
     }
+    // cout<<"sukhman"<<endl;
     return 0;
 }
 
