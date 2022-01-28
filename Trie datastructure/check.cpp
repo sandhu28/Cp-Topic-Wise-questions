@@ -16,6 +16,7 @@
 #define INF INT_MAX
 using namespace std;
 
+
 int main(){
     int arr[3]= {1,2,3};
     float ans= (3*(1.0)/4 *(log2(3*(1.0)/4))) + (1*(1.0)/4)*(log2(1*(1.0)/4));
